@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8C2B5E41E14F74F006CB1C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C2B5E31E14F74F006CB1C7 /* main.m */; };
+		C8C2B5E71E14F74F006CB1C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C2B5E61E14F74F006CB1C7 /* AppDelegate.m */; };
+		C8C2B5EA1E14F74F006CB1C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C2B5E91E14F74F006CB1C7 /* ViewController.m */; };
+		C8C2B5ED1E14F74F006CB1C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C2B5EB1E14F74F006CB1C7 /* Main.storyboard */; };
+		C8C2B5EF1E14F74F006CB1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C2B5EE1E14F74F006CB1C7 /* Assets.xcassets */; };
+		C8C2B5F21E14F74F006CB1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C2B5F01E14F74F006CB1C7 /* LaunchScreen.storyboard */; };
+		C8C2B5FD1E14F74F006CB1C7 /* CardAnimationView_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C2B5FC1E14F74F006CB1C7 /* CardAnimationView_demoTests.m */; };
+		C8C2B6081E14F750006CB1C7 /* CardAnimationView_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C2B6071E14F750006CB1C7 /* CardAnimationView_demoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8C2B5F91E14F74F006CB1C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8C2B5D71E14F74F006CB1C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C2B5DE1E14F74F006CB1C7;
+			remoteInfo = "CardAnimationView-demo";
+		};
+		C8C2B6041E14F74F006CB1C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8C2B5D71E14F74F006CB1C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C2B5DE1E14F74F006CB1C7;
+			remoteInfo = "CardAnimationView-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8C2B5DF1E14F74F006CB1C7 /* CardAnimationView-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardAnimationView-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C2B5E31E14F74F006CB1C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8C2B5E51E14F74F006CB1C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8C2B5E61E14F74F006CB1C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8C2B5E81E14F74F006CB1C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8C2B5E91E14F74F006CB1C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8C2B5EC1E14F74F006CB1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8C2B5EE1E14F74F006CB1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8C2B5F11E14F74F006CB1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8C2B5F31E14F74F006CB1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C2B5F81E14F74F006CB1C7 /* CardAnimationView-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardAnimationView-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C2B5FC1E14F74F006CB1C7 /* CardAnimationView_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardAnimationView_demoTests.m; sourceTree = "<group>"; };
+		C8C2B5FE1E14F74F006CB1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C2B6031E14F74F006CB1C7 /* CardAnimationView-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardAnimationView-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C2B6071E14F750006CB1C7 /* CardAnimationView_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardAnimationView_demoUITests.m; sourceTree = "<group>"; };
+		C8C2B6091E14F750006CB1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8C2B5DC1E14F74F006CB1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C2B5F51E14F74F006CB1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C2B6001E14F74F006CB1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8C2B5D61E14F74F006CB1C7 = {
+			isa = PBXGroup;
+			children = (
+				C8C2B5E11E14F74F006CB1C7 /* CardAnimationView-demo */,
+				C8C2B5FB1E14F74F006CB1C7 /* CardAnimationView-demoTests */,
+				C8C2B6061E14F750006CB1C7 /* CardAnimationView-demoUITests */,
+				C8C2B5E01E14F74F006CB1C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8C2B5E01E14F74F006CB1C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2B5DF1E14F74F006CB1C7 /* CardAnimationView-demo.app */,
+				C8C2B5F81E14F74F006CB1C7 /* CardAnimationView-demoTests.xctest */,
+				C8C2B6031E14F74F006CB1C7 /* CardAnimationView-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8C2B5E11E14F74F006CB1C7 /* CardAnimationView-demo */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2B5E51E14F74F006CB1C7 /* AppDelegate.h */,
+				C8C2B5E61E14F74F006CB1C7 /* AppDelegate.m */,
+				C8C2B5E81E14F74F006CB1C7 /* ViewController.h */,
+				C8C2B5E91E14F74F006CB1C7 /* ViewController.m */,
+				C8C2B5EB1E14F74F006CB1C7 /* Main.storyboard */,
+				C8C2B5EE1E14F74F006CB1C7 /* Assets.xcassets */,
+				C8C2B5F01E14F74F006CB1C7 /* LaunchScreen.storyboard */,
+				C8C2B5F31E14F74F006CB1C7 /* Info.plist */,
+				C8C2B5E21E14F74F006CB1C7 /* Supporting Files */,
+			);
+			path = "CardAnimationView-demo";
+			sourceTree = "<group>";
+		};
+		C8C2B5E21E14F74F006CB1C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2B5E31E14F74F006CB1C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8C2B5FB1E14F74F006CB1C7 /* CardAnimationView-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2B5FC1E14F74F006CB1C7 /* CardAnimationView_demoTests.m */,
+				C8C2B5FE1E14F74F006CB1C7 /* Info.plist */,
+			);
+			path = "CardAnimationView-demoTests";
+			sourceTree = "<group>";
+		};
+		C8C2B6061E14F750006CB1C7 /* CardAnimationView-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2B6071E14F750006CB1C7 /* CardAnimationView_demoUITests.m */,
+				C8C2B6091E14F750006CB1C7 /* Info.plist */,
+			);
+			path = "CardAnimationView-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8C2B5DE1E14F74F006CB1C7 /* CardAnimationView-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C2B60C1E14F750006CB1C7 /* Build configuration list for PBXNativeTarget "CardAnimationView-demo" */;
+			buildPhases = (
+				C8C2B5DB1E14F74F006CB1C7 /* Sources */,
+				C8C2B5DC1E14F74F006CB1C7 /* Frameworks */,
+				C8C2B5DD1E14F74F006CB1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardAnimationView-demo";
+			productName = "CardAnimationView-demo";
+			productReference = C8C2B5DF1E14F74F006CB1C7 /* CardAnimationView-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8C2B5F71E14F74F006CB1C7 /* CardAnimationView-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C2B60F1E14F750006CB1C7 /* Build configuration list for PBXNativeTarget "CardAnimationView-demoTests" */;
+			buildPhases = (
+				C8C2B5F41E14F74F006CB1C7 /* Sources */,
+				C8C2B5F51E14F74F006CB1C7 /* Frameworks */,
+				C8C2B5F61E14F74F006CB1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8C2B5FA1E14F74F006CB1C7 /* PBXTargetDependency */,
+			);
+			name = "CardAnimationView-demoTests";
+			productName = "CardAnimationView-demoTests";
+			productReference = C8C2B5F81E14F74F006CB1C7 /* CardAnimationView-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8C2B6021E14F74F006CB1C7 /* CardAnimationView-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C2B6121E14F750006CB1C7 /* Build configuration list for PBXNativeTarget "CardAnimationView-demoUITests" */;
+			buildPhases = (
+				C8C2B5FF1E14F74F006CB1C7 /* Sources */,
+				C8C2B6001E14F74F006CB1C7 /* Frameworks */,
+				C8C2B6011E14F74F006CB1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8C2B6051E14F74F006CB1C7 /* PBXTargetDependency */,
+			);
+			name = "CardAnimationView-demoUITests";
+			productName = "CardAnimationView-demoUITests";
+			productReference = C8C2B6031E14F74F006CB1C7 /* CardAnimationView-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8C2B5D71E14F74F006CB1C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = winter;
+				TargetAttributes = {
+					C8C2B5DE1E14F74F006CB1C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C8C2B5F71E14F74F006CB1C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8C2B5DE1E14F74F006CB1C7;
+					};
+					C8C2B6021E14F74F006CB1C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8C2B5DE1E14F74F006CB1C7;
+					};
+				};
+			};
+			buildConfigurationList = C8C2B5DA1E14F74F006CB1C7 /* Build configuration list for PBXProject "CardAnimationView-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8C2B5D61E14F74F006CB1C7;
+			productRefGroup = C8C2B5E01E14F74F006CB1C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8C2B5DE1E14F74F006CB1C7 /* CardAnimationView-demo */,
+				C8C2B5F71E14F74F006CB1C7 /* CardAnimationView-demoTests */,
+				C8C2B6021E14F74F006CB1C7 /* CardAnimationView-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8C2B5DD1E14F74F006CB1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C2B5F21E14F74F006CB1C7 /* LaunchScreen.storyboard in Resources */,
+				C8C2B5EF1E14F74F006CB1C7 /* Assets.xcassets in Resources */,
+				C8C2B5ED1E14F74F006CB1C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C2B5F61E14F74F006CB1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C2B6011E14F74F006CB1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8C2B5DB1E14F74F006CB1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C2B5EA1E14F74F006CB1C7 /* ViewController.m in Sources */,
+				C8C2B5E71E14F74F006CB1C7 /* AppDelegate.m in Sources */,
+				C8C2B5E41E14F74F006CB1C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C2B5F41E14F74F006CB1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C2B5FD1E14F74F006CB1C7 /* CardAnimationView_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C2B5FF1E14F74F006CB1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C2B6081E14F750006CB1C7 /* CardAnimationView_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8C2B5FA1E14F74F006CB1C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8C2B5DE1E14F74F006CB1C7 /* CardAnimationView-demo */;
+			targetProxy = C8C2B5F91E14F74F006CB1C7 /* PBXContainerItemProxy */;
+		};
+		C8C2B6051E14F74F006CB1C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8C2B5DE1E14F74F006CB1C7 /* CardAnimationView-demo */;
+			targetProxy = C8C2B6041E14F74F006CB1C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8C2B5EB1E14F74F006CB1C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C2B5EC1E14F74F006CB1C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8C2B5F01E14F74F006CB1C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C2B5F11E14F74F006CB1C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8C2B60A1E14F750006CB1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8C2B60B1E14F750006CB1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8C2B60D1E14F750006CB1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CardAnimationView-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailing.CardAnimationView-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8C2B60E1E14F750006CB1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CardAnimationView-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailing.CardAnimationView-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8C2B6101E14F750006CB1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CardAnimationView-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailing.CardAnimationView-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardAnimationView-demo.app/CardAnimationView-demo";
+			};
+			name = Debug;
+		};
+		C8C2B6111E14F750006CB1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CardAnimationView-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailing.CardAnimationView-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardAnimationView-demo.app/CardAnimationView-demo";
+			};
+			name = Release;
+		};
+		C8C2B6131E14F750006CB1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CardAnimationView-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailing.CardAnimationView-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CardAnimationView-demo";
+			};
+			name = Debug;
+		};
+		C8C2B6141E14F750006CB1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CardAnimationView-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailing.CardAnimationView-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CardAnimationView-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8C2B5DA1E14F74F006CB1C7 /* Build configuration list for PBXProject "CardAnimationView-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C2B60A1E14F750006CB1C7 /* Debug */,
+				C8C2B60B1E14F750006CB1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C2B60C1E14F750006CB1C7 /* Build configuration list for PBXNativeTarget "CardAnimationView-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C2B60D1E14F750006CB1C7 /* Debug */,
+				C8C2B60E1E14F750006CB1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8C2B60F1E14F750006CB1C7 /* Build configuration list for PBXNativeTarget "CardAnimationView-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C2B6101E14F750006CB1C7 /* Debug */,
+				C8C2B6111E14F750006CB1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8C2B6121E14F750006CB1C7 /* Build configuration list for PBXNativeTarget "CardAnimationView-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C2B6131E14F750006CB1C7 /* Debug */,
+				C8C2B6141E14F750006CB1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8C2B5D71E14F74F006CB1C7 /* Project object */;
+}
