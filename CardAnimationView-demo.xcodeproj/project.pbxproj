@@ -15,6 +15,8 @@
 		C8C2B5F21E14F74F006CB1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C2B5F01E14F74F006CB1C7 /* LaunchScreen.storyboard */; };
 		C8C2B5FD1E14F74F006CB1C7 /* CardAnimationView_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C2B5FC1E14F74F006CB1C7 /* CardAnimationView_demoTests.m */; };
 		C8C2B6081E14F750006CB1C7 /* CardAnimationView_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C2B6071E14F750006CB1C7 /* CardAnimationView_demoUITests.m */; };
+		C8C2B6181E14F7FF006CB1C7 /* CardAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C2B6171E14F7FF006CB1C7 /* CardAnimationView.m */; };
+		C8C2B61B1E14F816006CB1C7 /* CardItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C2B61A1E14F816006CB1C7 /* CardItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C8C2B6031E14F74F006CB1C7 /* CardAnimationView-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardAnimationView-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C2B6071E14F750006CB1C7 /* CardAnimationView_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardAnimationView_demoUITests.m; sourceTree = "<group>"; };
 		C8C2B6091E14F750006CB1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C2B6161E14F7FF006CB1C7 /* CardAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardAnimationView.h; sourceTree = "<group>"; };
+		C8C2B6171E14F7FF006CB1C7 /* CardAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardAnimationView.m; sourceTree = "<group>"; };
+		C8C2B6191E14F816006CB1C7 /* CardItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardItemView.h; sourceTree = "<group>"; };
+		C8C2B61A1E14F816006CB1C7 /* CardItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardItemView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		C8C2B5E11E14F74F006CB1C7 /* CardAnimationView-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C8C2B6151E14F796006CB1C7 /* CardAnimationView */,
 				C8C2B5E51E14F74F006CB1C7 /* AppDelegate.h */,
 				C8C2B5E61E14F74F006CB1C7 /* AppDelegate.m */,
 				C8C2B5E81E14F74F006CB1C7 /* ViewController.h */,
@@ -139,6 +146,17 @@
 			);
 			path = "CardAnimationView-demoUITests";
 			sourceTree = "<group>";
+		};
+		C8C2B6151E14F796006CB1C7 /* CardAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2B6161E14F7FF006CB1C7 /* CardAnimationView.h */,
+				C8C2B6171E14F7FF006CB1C7 /* CardAnimationView.m */,
+				C8C2B6191E14F816006CB1C7 /* CardItemView.h */,
+				C8C2B61A1E14F816006CB1C7 /* CardItemView.m */,
+			);
+			path = CardAnimationView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -207,7 +225,7 @@
 				TargetAttributes = {
 					C8C2B5DE1E14F74F006CB1C7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					C8C2B5F71E14F74F006CB1C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -275,7 +293,9 @@
 			files = (
 				C8C2B5EA1E14F74F006CB1C7 /* ViewController.m in Sources */,
 				C8C2B5E71E14F74F006CB1C7 /* AppDelegate.m in Sources */,
+				C8C2B61B1E14F816006CB1C7 /* CardItemView.m in Sources */,
 				C8C2B5E41E14F74F006CB1C7 /* main.m in Sources */,
+				C8C2B6181E14F7FF006CB1C7 /* CardAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "CardAnimationView-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ailing.CardAnimationView-demo";
@@ -433,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "CardAnimationView-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ailing.CardAnimationView-demo";
